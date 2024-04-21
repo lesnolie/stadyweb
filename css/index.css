@@ -63,7 +63,10 @@
 
 #get {
     background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+}
 
+#get p .bi {
+    margin-right: .5rem;
 }
 
 .what {
@@ -124,7 +127,7 @@
 }
 
 .link-card:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 
@@ -133,8 +136,12 @@
 }
 
 .pic-card:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.pic-card .bi {
+    margin-right: .5rem;
 }
 
 #pic-1 {
@@ -248,16 +255,6 @@
     width: 140px;
     height: 140px;
     margin-bottom: 10px;
-}
-
-.footer-logo {
-    width: 100%;
-    height: auto
-}
-
-.copyright a:hover {
-    color: #0d6efd !important;
-    text-decoration: underline !important;
 }
 
 #qa {
